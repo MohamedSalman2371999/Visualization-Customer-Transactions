@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Paytone+One&family=Poetsen+One&family=Righteous&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1338.7522707778992-19.939775279651357L1262.928145128508 116.54365088925258 1399.411571297412 116.54365088925255z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M108.744%2c275.008C144.36%2c276.431%2c175.526%2c253.114%2c193.463%2c222.312C211.527%2c191.292%2c216.004%2c152.921%2c197.884%2c121.934C179.916%2c91.208%2c144.332%2c78.075%2c108.744%2c77.435C71.799%2c76.771%2c31.236%2c86.008%2c13.873%2c118.625C-2.851%2c150.042%2c16.531%2c185.552%2c34.991%2c215.981C52.496%2c244.835%2c75.022%2c273.661%2c108.744%2c275.008' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M396.97409391725574 271.6238692452014L412.28899708735287 418.6834826023179 518.1631295333159 344.5496169622414z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M219.5699534962696 420.7547362348473L187.503663245271 269.89470162072405 68.7099188821463 452.8210264858459z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1195.812%2c455.882C1246.262%2c452.895%2c1292.705%2c431.578%2c1320.744%2c389.532C1352.62%2c341.732%2c1372.195%2c281.829%2c1345.972%2c230.708C1317.858%2c175.901%2c1257.364%2c143.618%2c1195.812%2c145.983C1137.807%2c148.212%2c1093.9%2c191.54%2c1064.394%2c241.529C1034.255%2c292.591%2c1011.336%2c355.469%2c1042.327%2c406.018C1072.463%2c455.171%2c1138.257%2c459.29%2c1195.812%2c455.882' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1036.6065624239454 465.7750773992651L895.5459333984486 465.7750773992651 895.5459333984486 606.835706424762 1036.6065624239454 606.835706424762z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 3.525rem;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.filters input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.chart-container {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+#chartMessage {
+  text-align: center;
+  margin: 20px;
+  display: none;
+  font-size: 20px;
+  color: #146ca7;
+}
+
+.effect3d { animation-name: effect3d }
+@keyframes effect3d {
+    to {
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15)
+    }
+}

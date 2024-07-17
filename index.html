@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Transactions</title>
+  <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="css/animate.css" /> 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="cssanimation effect3d mb-4">Customer Transactions</h1>
+    <div class="filters gap-3">
+      <input type="text" class="animate__animated animate__fadeInLeft" id="customerFilter" placeholder="Filter by customer name">
+      <input type="number" class="animate__animated animate__fadeInRight" id="amountFilter" placeholder="Filter by transaction amount">
+    </div>
+    <table class="animate__animated animate__fadeInDown">
+      <thead>
+        <tr>
+          <th>Customer Name</th>
+          <th>Total Amounts Of Transaction</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="transactionTableBody">
+
+      </tbody>
+    </table>
+    <div id="ContainerOfmyChart" class="container d-none">
+      <canvas id="myChart"></canvas>
+    </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
